@@ -1,0 +1,111 @@
+/*
+Theme Name: Next Epoch Seed Library
+Template: hackery
+*/
+
+@import url('../hackery/style.css');
+
+.body.page-template-page-stack section {
+	border-color: #FF7300;
+}
+
+a {
+	color: #FF7300;
+}
+
+.page-stack .title .breadcrumbs {
+	text-align: center;
+}
+
+.page-stack .title .breadcrumbs h1 {
+	background: transparent url('nesl.png');
+	background-size: 100% auto;
+	text-indent: -500px;
+	width: 200px;
+	height: 274px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-stack .tagline {
+	margin-bottom: 1em;
+	font-size: 18px;
+}
+
+.page-stack .tagline span {
+	font-style: italic;
+	font-weight: 600;
+	color: #f1f1f1;
+	background: #FF7300;
+	padding: 1px 5px;
+	line-height: 30px;
+}
+
+.format-image .menu a {
+	background: #f1f1f1;
+}
+
+#listen_btn_tour input[type="submit"] {
+	border: none;
+	color: #fff;
+	background: #FF7300;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+#listen_btn_tour .stats_details {
+	width: 100%;
+}
+
+#listen_btn_tour .stats_details table {
+	width: 100%;
+}
+
+#listen_btn_tour .stats_details td {
+	border-bottom: 1px solid #808080;
+	padding: 5px 0;
+}
+
+#listen_btn_tour .stats_details th {
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	padding: 5px 0;
+}
+
+@media (min-width: 681px) {
+
+	.page-stack .title .breadcrumbs {
+		text-align: left;
+	}
+
+	.page-stack .title {
+		float: left;
+		margin-right: 2em;
+	}
+
+	.page-stack .text {
+		float: left;
+		width: 300px;
+		margin-top: 100px;
+	}
+
+	.page-stack .content:after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+	.columns {
+		display: flex;
+	}
+
+	.columns .column {
+		width: 50%;
+	}
+
+}
